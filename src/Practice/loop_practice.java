@@ -1,8 +1,28 @@
 package Practice;
 
 public class loop_practice {
-	public static void main(String[] args) {
+	public void right_aligned_triangle() {
 		for (int i = 1 ; i<=4 ; i++) {
+			for (int j = 1 ; j<=4-i ; j++) {
+				System.out.print('\t');
+				}
+			System.out.println();
+			
+			for (int j = 1 ; j<=i+1 ; j++) {
+				System.out.print("*");
+				}
+			System.out.println();
+				
+			}
+		}
+		
+	
+	
+	public static void main(String[] args) {
+		loop_practice rat = new loop_practice();
+		rat.right_aligned_triangle();
+		
+		/*for (int i = 1 ; i<=4 ; i++) {
 //			System.out.println("1");
 			for (int j =1 ; j<=4 ; j++ ) {
 				System.out.print(" * ");
@@ -57,7 +77,12 @@ public class loop_practice {
 				System.out.print(" * ");
 			}
 			System.out.println();
-		}
+		}*/
+		
+		
+		
+		
+		
 	}
 
 }
