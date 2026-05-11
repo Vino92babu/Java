@@ -14,6 +14,7 @@ public class Array {
 			}
 		}
 		System.out.print(min);
+		System.out.print(min);
 	}
 
 }
