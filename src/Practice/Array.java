@@ -2,7 +2,7 @@ package Practice;
 
 public class Array {
 	public static void main(String[] args) {		
-		int ip [] [] = {{22,4,5},{3,4,7},{13,252,50}};
+		int ip [][]  = {{22,4,5},{3,4,7},{13,252,50}};
 		int min = ip[0][0];
 //		int max = ip[0][0];
 		for (int i = 0 ;  i<3 ; i++) {
